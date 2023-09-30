@@ -1,0 +1,17 @@
+name: StiffMode
+main: com.github.chewt.stiffmode.StiffMode
+version: ${version}
+api-version: ${apiver}
+commands:
+  setupHeaven:
+    description: Teleports you to heaven and gives you a button that will teleport a player back to earth
+    usage: /<command> start/stop
+    permission: stiffgod.god
+  setupHell:
+    description: Teleports you to hell and gives you a button that will teleport a player to heaven
+    usage: /<command> start/stop
+    permission: stiffgod.god
+permissions:
+  stiffgod.god:
+    description: has access to plugin commands
+    default: op
